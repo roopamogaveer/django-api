@@ -14,7 +14,7 @@ body :
 
 
  # Angular Frontend
- ![UI Screenshot]([http://url/to/img.png](https://github.com/Prasadpoojary/django-api/blob/master/testui/src/assets/Angular.png)https://github.com/Prasadpoojary/django-api/blob/master/testui/src/assets/Angular.png)
+ ![UI Screenshot](https://github.com/Prasadpoojary/django-api/blob/master/testui/src/assets/Angular.png)
 
 
  
