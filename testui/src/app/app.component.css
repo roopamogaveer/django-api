@@ -1,0 +1,16 @@
+header 
+{
+    padding:20px;
+    text-align: center;
+}
+
+header h2 
+{
+    color:#999;
+    font-size: 25px;
+}
+
+header h2 span 
+{
+    color:#8ad192;
+}
