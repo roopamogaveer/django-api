@@ -1,0 +1,17 @@
+<div class="form-container">
+    <div class="input-wrapper">
+         <label for="username">Username</label>
+         <input type="text" id="username" [(ngModel)]="formData.username">
+    </div>
+    <div class="input-wrapper">
+         <label for="email">E-mail</label>
+         <input type="text" id="email" [(ngModel)]="formData.email">
+     </div>
+     <div class="input-wrapper">
+         <label for="password">Password</label>
+         <input type="text" id="password" [(ngModel)]="formData.password">   
+     </div>
+     <div class="submit-wrapper">
+         <button type="submit" id="submit-btn" (click)="onSubmit();">+</button>
+     </div>
+ </div>
