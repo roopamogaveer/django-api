@@ -21,7 +21,7 @@ def manageUser(request):
         else:
             return Response(status=status.HTTP_404_NOT_FOUND)
     else:
-        email=request.get_full_path().split("email=")[1]
+        email=request.headers["email"]
         user = User.objects.filter(email=email).first()
         user.delete()
         return Response(status=status.HTTP_200_OK)
